@@ -1,0 +1,18 @@
+#notesList .note {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.note {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.note-children {
+  margin-top: 10px;
+  margin-left: 20px;
+  border-left: 2px dashed #ccc;
+  padding-left: 10px;
+}

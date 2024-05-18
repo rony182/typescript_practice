@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container mt-5">
+        <!-- Heading -->
+        <h1 class="mb-4">Notes App</h1>
+        <!-- Form to add notes -->
+        <div>
+            <!-- Input fields for title and content -->
+            <input type="text" id="noteTitle" class="form-control mb-2" placeholder="Title">
+            <input type="hidden" id="parentId">
+            <textarea id="noteContent" class="form-control mb-2" placeholder="Content"></textarea>
+            <!-- Button to submit the form -->
+            <button class="btn btn-primary" id="submit-btn">Add Note</button>
+        </div>
+        <!-- List of notes -->
+        <div id="notesList" class="mt-4"></div>
+    </div>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Include Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include index.js -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
