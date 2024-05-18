@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Trigger on pushes to the main branch; adjust if necessary
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
